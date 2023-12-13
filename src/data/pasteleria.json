@@ -1,0 +1,79 @@
+[
+    {
+        "id": "1",
+        "name": "Torta Victoria Secret",
+        "price": 20,
+        "desc": "Deliciosa torta de biszcocho humedo de Chocolate relleno de manjar. Cubierta de fondant, decoracion en fondnat, lamina de azucar, bisuteria",
+        "img": "/Tortas/Imagen1.jpg"
+    },
+    {
+        "id": "2",
+        "name": " Torta Aniversario",
+        "price": 20,
+        "desc": "Torta 15 personas, panqueque de chocolate, relleno y cubierta de ganache de chocolate, decoracion en fondant",
+        "img": "/Tortas/Imagen2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Torta Baby Shower",
+        "price": 20,
+        "desc": "Panqueque CHocolate manjar frambuesa, cubierta de butter cream decorada en fondant, esferas cubirta de chocolate",
+        "img": "/Tortas/Imagen3.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Torta Futbolera",
+        "price": 20,
+        "desc": "Queque de nueces, sin relleno, cubierto de chantilly. Gauntes y balon en fondant",
+        "img": "/Tortas/Imagen4.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Torta Cumpleaño",
+        "price": 20,
+        "desc": "Torta para 50 personas, bizcocho de vinilla rellena de manjar y butter-cream de lucuma, figuras en fondant",
+        "img": "/Tortas/Imagen5.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Torta de Animalitos",
+        "price": 20,
+        "desc": "Torta para 30 personas bizcocho humedo de chocolate relleno de manjar cubierta de fondan y animalitos en fondant",
+        "img": "/Tortas/Imagen6.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Torta Matrimonio",
+        "price": 20,
+        "desc": "Torta para 50 personas cubierta en fondant",
+        "img": "/Tortas/Imagen7.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Torta de Constructor",
+        "price": 20,
+        "desc": "Torta de biszcocho de vainilla rellena de butter-cream de lucuma, cubierta y figuras en fondant",
+        "img": "/Tortas/Imagen8.jpg"
+    },
+    {
+        "id": "9",
+        "name": "Torta Granja",
+        "price": 20,
+        "desc": "Torta para 20 personas de bizcocho",
+        "img": "/Tortas/Imagen9.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Torta Cumpleaño Payasito Plim Plim",
+        "price": 20,
+        "desc": "Torta cubierta con figuras en fondant sin moldes",
+        "img": "/Tortas/Imagen10.jpg"
+    },
+    {
+        "id": "11",
+        "name": "Torta Pompadour",
+        "price": 20,
+        "desc": "Pompadour de platano, finas hojarascas rellenas de crema de platano y manjar",
+        "img": "/Tortas/Imagen11.jpg"
+    }
+]  

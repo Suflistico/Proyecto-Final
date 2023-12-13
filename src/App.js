@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ContextProvider } from './Context';
+import Navbar from "./components/Navbar";
+import Home from "./views/Home";
+import Registro from "./views/Registro";
+import Login from "./views/Login";
+import Perfil from "./views/Perfil";
+import ProductoDetalle from "./views/ProductoDetalle";
+import CarritoDetalle from "./views/CarritoDetalle";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ContextProvider>
+      <div className="App fondo-imagen">
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/registrarse" element={<Registro />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/perfil" element={<Perfil />} />
+            <Route path="/producto/:id" element={<ProductoDetalle />} />
+            <Route path="/carrito" element={<CarritoDetalle />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </ContextProvider>
   );
 }
 

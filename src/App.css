@@ -1,38 +1,91 @@
-.App {
+body {
+  background: #284b63;
+  color: white;
+  font-family: 'Calibri', sans-serif; 
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  color: white;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fondo-imagen {
+  background-image: url('../public/magdalenas.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.producto {
+  text-align: center;
+  margin: 10px;
+}
+
+.producto img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+.card {
+  width: 18rem;
+  margin: 10px;
+  color: black;
+  font-size: 16px; 
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+.logo {
+  font-family: 'Edwardian Script ITC', cursive;
+}
+.logo {
+  font-family: 'Edwardian Script ITC', cursive;
+  font-size: 36px; 
+}
+
+/* CarritoDetalle.css */
+.carrito-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px; 
+  text-align: center;
+  max-width: 310px;
+  margin: 0 auto;
+}
+
+.item-detalle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.item-detalle span {
+  flex: 1;
+  text-align: left;
+  margin-right: 8px;
+}
+
+.total-detalle {
+  margin-top: 16px;
+  font-size: 30px;
 }
